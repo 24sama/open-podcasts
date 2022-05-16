@@ -9,7 +9,7 @@ spec:
   externalTrafficPolicy: Cluster
   ports:
     - name: front
-      nodePort: 30010
+      nodePort: 30011
       port: 5000
       protocol: TCP
       targetPort: 5000
